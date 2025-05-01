@@ -4,9 +4,14 @@ type Props = {
 };
 
 const Avatar = ({ name, picture }: Props) => {
+  const defaultImage = "/assets/blog/defaultImage/paduck.png";
   return (
     <div className="flex items-center">
-      <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />
+      <img
+        src={picture || defaultImage}
+        className="w-12 h-12 rounded-full mr-4"
+        alt={name}
+      />
       <div className="text-xl font-bold">{name}</div>
     </div>
   );
