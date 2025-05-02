@@ -1,4 +1,3 @@
-// ✅ page.tsx
 import { getAllPosts } from "@/lib/api";
 import { PostPreview } from "@/app/_components/post-preview";
 import { notFound } from "next/navigation";
