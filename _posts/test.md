@@ -7,7 +7,7 @@ author:
   name: 이석찬
   picture: "/assets/blog/defaultImage/paduck.png"
 ogImage:
-  url: "/assets/blog/defaultImage/book.png"
+  url: "/assets/blog/ogImage/og_image.png"
 category: "React"
 ---
 
