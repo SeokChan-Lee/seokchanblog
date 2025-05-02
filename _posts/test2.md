@@ -7,6 +7,7 @@ author:
 
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
+category: "Next.js"
 ---
 
 테스트 어떻게 나오는지 확인용
