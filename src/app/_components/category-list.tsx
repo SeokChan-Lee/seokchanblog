@@ -13,8 +13,7 @@ export default function CategoryList() {
 
   return (
     <div className="">
-      <h1 className="font-bold text-3xl mb-3">Category</h1>
-      <ul className="flex text-2xl mb-8 md:mb-6 gap-5">
+      <ul className="flex text-lg mb-4 md:mb-10 gap-5 md:text-2xl">
         {categories.map((category) => (
           <li key={category}>
             <Link href={`/category/${category}`}>
