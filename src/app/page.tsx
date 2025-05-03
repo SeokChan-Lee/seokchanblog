@@ -1,9 +1,7 @@
 import Container from "@/app/_components/container";
 import { HeroPost } from "@/app/_components/hero-post";
-import { Intro } from "@/app/_components/intro";
-import { MoreStories } from "@/app/_components/more-stories";
+import MorePost from "@/app/_components/more-post";
 import { getAllPosts } from "@/lib/api";
-import CategoryList from "./_components/category-list";
 import Gnb from "./_components/gnb";
 
 export default function Index() {
@@ -25,7 +23,7 @@ export default function Index() {
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
         />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        {morePosts.length > 0 && <MorePost posts={morePosts} />}
       </Container>
     </main>
   );
